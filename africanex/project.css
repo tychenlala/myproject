@@ -1,0 +1,281 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+.logo {
+  float: left;
+  color: white;
+}
+.page-header {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+.page-header2 {
+  float: right;
+}
+.navbar {
+  background: grey;
+  height: 50px;
+}
+.select-vehicle {
+  text-align: center;
+  background-color: #ea3333;
+}
+.replacement{
+  text-align: center;
+  color: white;
+}
+.search {
+  color: white;
+  text-align: center;
+  background-color: #4c4e4e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.feature-product {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.contact {
+  background: #4c4e4e;
+  color: white
+}
+.footer {
+  text-align: center;
+  background: black;
+}
+.spare-list-group {
+  width: 90%;
+  margin: auto;
+  min-height: 300px;
+  text-align: center;
+  padding-top: 10px;
+  /* position: center; */
+
+}
+.list-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/index.jpeg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  transition: .5s all;
+}
+.spare-list-group .list-1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/index.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.list-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/index1.jpeg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  transition: .5s all;
+}
+.spare-list-group .list-2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/index1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.list-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/index11.jpeg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  transition: .5s all;
+}
+.spare-list-group .list-3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/index11.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.list-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/index12.jpeg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  transition: .5s all;
+}
+.spare-list-group .list-4:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/index12.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.list-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/index222.jpeg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  transition: .5s all;
+}
+.spare-list-group .list-5:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/index222.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.list-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/index1.jpeg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  transition: .5s all;
+}
+.spare-list-group .list-6:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/index1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.vehicle-parts {
+  width: 94%;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 300px;
+  text-align: center;
+  padding-top: 5px;
+}
+.part-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/ass3.jpeg);
+  background-position: top;
+  background-size: 100%;
+  height: 200px;
+  width: 31%;
+  float: left;
+  transition: .5s all;
+  cursor: pointer;
+}
+.vehicle-parts .part-one:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/ass3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.part-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/ass4.jpeg);
+  background-position: top;
+  background-size: 100%;
+  height: 200px;
+  width: 32%;
+  float: left;
+  transition: .5s all;
+  cursor: pointer;
+}
+.vehicle-parts .part-two:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/ass4.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.part-three {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/asss1.jpeg);
+  background-position: left;
+  background-size: 100%;
+  height: 200px;
+  width: 31%;
+  float: left;
+  transition: .5s all;
+  cursor: pointer;
+}
+.vehicle-parts .part-three:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/asss1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.part-four {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/asss2.jpeg);
+  background-position: top;
+  background-size: 100%;
+  height: 200px;
+  width: 31%;
+  float: left;
+  transition: .5s all;
+  cursor: pointer;
+}
+.vehicle-parts .part-four:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/asss2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.part-five {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/asss5.jpeg);
+  background-position: top;
+  background-size: 100%;
+  height: 200px;
+  width: 32%;
+  float: left;
+  transition: .5s all;
+  cursor: pointer;
+}
+.vehicle-parts .part-five:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/asss5.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.part-six {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/assss3.jpeg);
+  background-position: top;
+  background-size: 100%;
+  height: 200px;
+  width: 31%;
+  float: left;
+  transition: .5s all;
+  cursor: pointer;
+}
+.Log_in_page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/4.jpg);
+  height: 300px;
+  background-position: center;
+  color: white;
+  background-size: 100%;
+}
+.Registration {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/1.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+.vehicle-parts .part-six:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/assss3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'HelveticalNeue-Roman';
+  src: url('Helvetica/HelveticaNeueCyr-Roman.otf');
+}
+@font-face {
+  font-family: 'HelveticalNeue-UltraLight';
+  src: url('Helvetica/HelveticaNeueCyr-UltraLight.otf');
+}
+@font-face {
+  font-family: 'HelveticalNeue-Light';
+  src: url('Helvetica/HelveticaNeueCyr-Light.otf');
+}
+#h4 {
+  font-family: 'HelveticalNeue-UltraLight';
+}
+#h1 {
+  font-family: 'HelveticalNeue-Roman';
+}
+#h3 {
+  font-family: 'HelveticalNeue-Light';
+}
+#h2 {
+  font-family: 'HelveticalNeue-UltraLight';
+}
